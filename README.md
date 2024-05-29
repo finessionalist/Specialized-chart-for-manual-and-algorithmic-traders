@@ -22,24 +22,20 @@ The application fetches market data, applies a trend-following algorithm to iden
    ```sh
    git clone https://github.com/your-username/trend-following-algorithm.git
 
-	2.		2.	Navigate to the project directory:
+2.	Navigate to the project directory:
 
-cd trend-following-algorithm
+	cd trend-following-algorithm
+	
+3.	Install the required dependencies:
 
-	2.	
-	3.	Install the required dependencies:
+	pip install -r requirements.txt
 
-pip install -r requirements.txt
-
-	2.	
-Usage
-
-	1.	Run the application:
+Run the application:
 
 python script_name.py
 
-	2.	
-	2.	Enter the asset symbol and click “Show Trends” to fetch and analyze market data.
+
+- Enter the asset symbol and click “Show Trends” to fetch and analyze market data.
 Dependencies
 
 	•	pandas
